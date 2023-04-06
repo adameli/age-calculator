@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "poppins_bold";
+    src: url("assets/fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: "poppins_extra_bold_italic";
+    src: url("assets/fonts/Poppins-ExtraBoldItalic.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 86%);
+}
+
+#wrapper {
+    /* height: 600px; */
+    width: 800px;
+
+    padding: 60px;
+    border-radius: 35px 35px 210px 35px;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    gap: 10px;
+    color: hsl(0, 1%, 44%);
+    font-family: "poppins_bold";
+}
+
+.small_text {
+    font-size: 13px;
+    letter-spacing: 4px;
+}
+
+.input_field::placeholder {
+    font-size: 32px;
+}
+
+.input_field {
+    font-family: "poppins_bold";
+    font-size: 32px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid hsl(0, 0%, 86%);
+    width: 150px;
+}
+
+#activate {
+    display: flex;
+    align-items: center;
+}
+
+#line {
+    height: 2px;
+    background-color: hsl(0, 0%, 86%);
+    flex-grow: 1;
+}
+
+#button {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-image: url("assets/images/icon-arrow.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: hsl(259, 100%, 65%);
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: hsl(0, 0%, 8%);
+}
+
+#button:active {
+    /* box-shadow: 1px 1px 1px hsl(0, 0%, 8%); */
+    border: 1px solid hsl(0, 0%, 86%);
+}
+
+h1 {
+    font-size: 94px;
+    font-family: "poppins_extra_bold_italic";
+    margin: 0;
+    height: 105px;
+    color: hsl(0, 0%, 8%);
+}
+
+span {
+    color: hsl(259, 100%, 65%);
+}
