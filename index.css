@@ -56,6 +56,10 @@ header {
     width: 150px;
 }
 
+.input_field:hover {
+    cursor: pointer;
+}
+
 #activate {
     display: flex;
     align-items: center;
@@ -97,4 +101,5 @@ h1 {
 
 span {
     color: hsl(259, 100%, 65%);
+    margin-right: 10px;
 }
